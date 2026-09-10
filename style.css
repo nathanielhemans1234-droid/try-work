@@ -538,7 +538,7 @@ textarea.form-control {
 .featured-content {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 150px;
     height: 100%;
     width: 55%;
     padding: 65px 30px;
@@ -549,7 +549,7 @@ textarea.form-control {
 }
 
 .featured-badge {
-  margin-top: 20px;
+  margin-top: 80px;
     background: #5059ff;
     padding: 8px 17px;
     border-radius: 30px;
@@ -574,6 +574,9 @@ textarea.form-control {
 
 /* ARTICLE INFO */
 
+.section{
+    margin: auto 180px;
+}
 .article-info {
     display: flex;
     align-items: center;
@@ -875,12 +878,9 @@ textarea.form-control {
 ========================= */
 
 .newsletter {
-    margin: 25px 0 12px;
-
+    margin: 50px 180px 50px;
     padding: 22px;
-
     border-radius: 12px;
-
     background: linear-gradient(
         120deg,
         #f0f2ff,
@@ -976,7 +976,8 @@ footer {
 
 .footer-top {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
 }
 
@@ -998,11 +999,11 @@ footer {
 .copyright {
     text-align: center;
 
-    margin-top: 22px;
+    margin-top: 12px;
 
-    color: #9da8ba;
+    color:white;
 
-    font-size: 12px;
+    font-size: 15px;
 }
 
 
