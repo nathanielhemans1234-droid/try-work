@@ -1014,6 +1014,7 @@ footer {
 @media (max-width: 900px) {
     .featured-content {
         width: 70%;
+        left: 0;
     }
 
     .featured-content h1 {
@@ -1027,9 +1028,19 @@ footer {
     .article-card > img {
         width: 220px;
     }
+    .section{
+      left: 0;
+      margin: auto;
+      width: 90%;
+    }
 
     .newsletter {
         flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        left: 0;
     }
 
     .newsletter form {
