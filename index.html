@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeLaunch</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700;900&family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar">
+    <div class="container">
+      <span class="navbar-brand">CodeLaunch</span>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html#title">Home</a>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="title">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1 class="Big-heading">Launch your startup faster than ever before!</h1>
+        <p class="sub-heading">Join 1000s of startups that use CodeLaunch to build their online presence.</p>
+        <button class="btn btn-primary">Request Early Access</button>
+        <button class="btn btn-secondary">Learn More</button>
+      </div>
+      <div class="hero-image">
+        <img src="images/iPhone14pro.png"
+             alt="iPhone 14 Pro" class="title-image" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURES ========== -->
+  <section id="features">
+    <div class="container">
+      <h2 class="feature-title">Features</h2>
+      <p class="feature-subtitle">Discover the power of CodeLaunch</p>
+      <div class="features-grid">
+        <div class="feature">
+          <i class="fa fa-rocket feature-icon" aria-hidden="true"></i>
+          <h4>Fast Deployment</h4>
+          <p>Get your website up and running in minutes with our easy-to-use platform.</p>
+          <button class="btn btn-outline-dark w-100 btn-lg">Learn More</button>
+        </div>
+        <div class="feature">
+          <i class="fa fa-shield feature-icon" aria-hidden="true"></i>
+          <h4>Secure Hosting</h4>
+          <p>Your data is safe with us. We provide top-notch security for all our users.</p>
+          <button class="btn btn-outline-dark w-100 btn-lg">Learn More</button>
+        </div>
+        <div class="feature">
+          <i class="fa fa-palette feature-icon" aria-hidden="true"></i>
+          <h4>Customizable Templates</h4>
+          <p>Choose from a variety of templates to create a unique online presence.</p>
+          <button class="btn btn-outline-dark w-100 btn-lg">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATISTICS ========== -->
+  <section id="statistics">
+    <div class="container">
+      <h2 class="statistics-title">Our Impact</h2>
+      <div class="stats-grid">
+        <div class="statistic">
+          <h3>10K+ Active Users</h3>
+          <p>Thousands of startups, entrepreneurs, and growing businesses rely on our platform daily.</p>
+        </div>
+        <div class="statistic">
+          <h3>500+ Projects</h3>
+          <p>From innovative startup ideas to large-scale business solutions, we have delivered hundreds of projects.</p>
+        </div>
+        <div class="statistic">
+          <h3>24/7 Dedicated Support</h3>
+          <p>Our expert support team is available around the clock to provide fast assistance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section id="pricing">
+    <div class="container">
+      <h2 class="pricing-title">Pricing Plans</h2>
+      <p class="pricing-subtitle">Choose the plan that best suits your needs</p>
+      <div class="pricing-grid">
+        <div class="card">
+          <div class="card-header"><h2>Basic</h2></div>
+          <div class="card-body">
+            <div class="card-title">$9.99/month</div>
+            <ul class="pricing-features">
+              <li>1 Website</li>
+              <li>10 GB Storage</li>
+              <li>Basic Support</li>
+            </ul>
+            <button class="btn btn-dark w-100 btn-lg">Choose Plan</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><h2>Pro</h2></div>
+          <div class="card-body">
+            <div class="card-title">$29.99/month</div>
+            <ul class="pricing-features">
+              <li>5 Websites</li>
+              <li>50 GB Storage</li>
+              <li>Priority Support</li>
+            </ul>
+            <button class="btn btn-outline-dark w-100 btn-lg">Choose Plan</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header"><h2>Enterprise</h2></div>
+          <div class="card-body">
+            <div class="card-title">Custom Pricing</div>
+            <ul class="pricing-features">
+              <li>Unlimited Websites</li>
+              <li>Unlimited Storage</li>
+              <li>Dedicated Support</li>
+            </ul>
+            <button class="btn btn-dark w-100 btn-lg">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section id="testimonials">
+    <div class="container">
+      <h2 class="testimonials-title">What Our Users Say</h2>
+      <div id="testimonialCarousel">
+        <div class="testimonial-slide active">
+          <p class="testimonial-text">“CodeLaunch has transformed the way we manage our online presence. The platform is user-friendly, and the support team is fantastic!”</p>
+          <img class="testimonial-image" src="images/close-up-shot-pretty-woman-with-perfect-teeth-dark-clean-skin-having-rest-indoors-smiling-happily-after-received-good-positive-news.jpg" alt="Sarah" />
+          <span class="testimonial-author">Sarah M., Startup Founder</span>
+        </div>
+        <div class="testimonial-slide">
+          <p class="testimonial-text">“The customizable templates allowed us to create a unique website that perfectly represents our brand. Highly recommend CodeLaunch!”</p>
+          <img class="testimonial-image" src="images/6a9d17646d9c55d128745269e4e37f0c.jpg" alt="John" />
+          <span class="testimonial-author">John D., Entrepreneur</span>
+        </div>
+        <div class="testimonial-slide">
+          <p class="testimonial-text">“With CodeLaunch, we were able to launch our website in no time. The fast deployment and secure hosting have been game-changers.”</p>
+          <img class="testimonial-image" src="images/confident-business-woman-portrait-smiling-face.jpg" alt="Emily" />
+          <span class="testimonial-author">Emily R., Business Owner</span>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button id="prevTestimonial" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+        <button id="nextTestimonial" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="contact-title">Get in Touch</h2>
+      <p class="contact-subtitle">Have questions? We're here to help!</p>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> contact@codelaunch.com</p>
+        <p><i class="fas fa-phone"></i> +1 (123) 456-7890</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="footer">
+    <p class="footer-text">&copy; 2026 CodeLaunch. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <!-- external JavaScript -->
+  <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeLaunch Blog</title>
+      <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700;900&family=Montserrat:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- external CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar">
+    <div class="container">
+      <span class="navbar-brand">CodeLaunch</span>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html#title">Home</a>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="blog.html">Blog</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- ================= FEATURED ARTICLE ================= -->
+<section class="featured-section">
+    <article class="featured-card">
+        <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=85"
+            alt="Laptop with programming code"
+        >
+        <div class="featured-overlay"></div>
+        <div class="featured-content">
+            <span class="featured-badge">
+                Featured
+            </span>
+            <h1>
+                Build Better Websites
+                with HTML, CSS &
+                Bootstrap
+            </h1>
+            <p>
+                Learn how to create modern, responsive
+                and beautiful websites using HTML, CSS
+                and Bootstrap. This beginner-friendly
+                guide will help you get started and build
+                your first project.
+            </p>
+            <div class="article-info">
+                <div class="author">
+                    <img
+                        src="https://i.pravatar.cc/100?img=12"
+                        alt="Nathaniel Hemans"
+                    >
+                    <span>Nathaniel Hemans</span>
+                </div>
+                <div>
+                    <i class="fa-regular fa-calendar"></i>
+                    Aug 28, 2026
+                </div>
+                <div>
+                    <i class="fa-regular fa-clock"></i>
+                    6 min read
+                </div>
+            </div>
+            <a href="#" class="read-btn">
+                Read More
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+        </div>
+    </article>
+</section>
+
+<!-- ================= LATEST ARTICLES ================= -->
+<section class="section">
+    <div class="section-heading">
+        <h2>Latest Articles</h2>
+        <a href="#">
+            View All
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+    <div class="articles-container">
+
+        <!-- Article 1 -->
+        <article class="article-card">
+            <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80"
+                alt="Web development"
+            >
+            <div class="article-content">
+                <span class="category blue">
+                    Web Development
+                </span>
+                <h3>
+                    How to Create a Responsive
+                    Navbar with Bootstrap
+                </h3>
+                <p>
+                    A step-by-step guide to building a clean,
+                    responsive navigation bar using Bootstrap 5.
+                    No JavaScript required!
+                </p>
+                <div class="small-info">
+                    <div class="author">
+                        <img src="https://i.pravatar.cc/100?img=12"
+                             alt="Nathaniel">
+                        Nathaniel Hemans
+                    </div>
+                    <span>
+                        <i class="fa-regular fa-calendar"></i>
+                        Aug 20, 2026
+                    </span>
+                    <span>
+                        <i class="fa-regular fa-clock"></i>
+                        5 min read
+                    </span>
+                </div>
+            </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="article-card">
+            <img
+                src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=600&q=80"
+                alt="Productivity"
+            >
+            <div class="article-content">
+                <span class="category green">
+                    Productivity
+                </span>
+                <h3>
+                    5 Productivity Tips for
+                    Web Developers
+                </h3>
+                <p>
+                    Stay focused, avoid distractions and get
+                    more done with these simple productivity tips.
+                </p>
+                <div class="small-info">
+                    <div class="author">
+                        <img src="https://i.pravatar.cc/100?img=12"
+                             alt="Nathaniel">
+                        Nathaniel Hemans
+                    </div>
+                    <span>
+                        <i class="fa-regular fa-calendar"></i>
+                        Aug 16, 2026
+                    </span>
+                    <span>
+                        <i class="fa-regular fa-clock"></i>
+                        4 min read
+                    </span>
+                </div>
+            </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="article-card">
+            <img
+                src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=600&q=80"
+                alt="VS Code extensions"
+            >
+            <div class="article-content">
+                <span class="category pink">
+                    Technology
+                </span>
+                <h3>
+                    10 Essential VS Code Extensions
+                    You Should Use
+                </h3>
+                <p>
+                    These extensions will make your workflow
+                    faster, easier and more enjoyable.
+                </p>
+                <div class="small-info">
+                    <div class="author">
+                        <img src="https://i.pravatar.cc/100?img=12"
+                             alt="Nathaniel">
+                        Nathaniel Hemans
+                    </div>
+                    <span>
+                        <i class="fa-regular fa-calendar"></i>
+                        Aug 12, 2026
+                    </span>
+                    <span>
+                        <i class="fa-regular fa-clock"></i>
+                        6 min read
+                    </span>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+<section class="section categories-section">
+    <div class="section-heading">
+
+        <h2>Categories</h2>
+        <a href="#">
+            View All
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+    </div>
+    <div class="categories-grid">
+        <a href="#" class="category-item technology">
+            <span class="category-icon">
+                <i class="fa-solid fa-code"></i>
+            </span>
+            <span>Technology</span>
+            <small>12</small>
+        </a>
+        <a href="#" class="category-item web">
+            <span class="category-icon">
+                <i class="fa-solid fa-desktop"></i>
+            </span>
+            <span>Web Development</span>
+            <small>12</small>
+        </a>
+        <a href="#" class="category-item programming">
+            <span class="category-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </span>
+            <span>Programming</span>
+            <small>9</small>
+        </a>
+        <a href="#" class="category-item lifestyle">
+            <span class="category-icon">
+                <i class="fa-solid fa-heart"></i>
+            </span>
+
+            <span>Lifestyle</span>
+
+            <small>5</small>
+        </a>
+        <a href="#" class="category-item design">
+            <span class="category-icon">
+                <i class="fa-solid fa-pen-nib"></i>
+            </span>
+            <span>Design</span>
+            <small>6</small>
+        </a>
+        <a href="#" class="category-item education">
+            <span class="category-icon">
+                <i class="fa-solid fa-book-open"></i>
+            </span>
+            <span>Education</span>
+            <small>4</small>
+        </a>
+    </div>
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter">
+    <div class="newsletter-icon">
+        <i class="fa-regular fa-envelope"></i>
+    </div>
+    <div class="newsletter-text">
+        <h2>Stay Updated</h2>
+        <p>
+            Get the latest articles delivered to your email.
+        </p>
+    </div>
+    <form id="subscribeForm">
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+            required
+        >
+        <button type="submit">
+            Subscribe
+        </button>
+    </form>
+</section>
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+    <div class="footer-top">
+        <a href="#" class="logo">
+            <span class="logo-symbol">&lt;/&gt;</span>
+            <span>Code<span>Lunch</span></span>
+        </a>
+        <div class="social-links">
+            <a href="#">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+    </div>
+    <div class="copyright">
+        © 2026 CodeLunch. All rights reserved.
+    </div>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>
